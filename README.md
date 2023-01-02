@@ -7,9 +7,20 @@
 - 사용 툴
   - [Ender-5 Pro 3D Printer](https://www.creality.com/pages/download)
   - [padlet](https://padlet.com/misumi/goqhd31)
+  - [tinkercad](https://www.tinkercad.com/)
 
 - 관련 사이트
   - [싱기버스](https://www.thingiverse.com/)
+
+- 활동 내용
+  <details>
+  <summary>tinkercad를 활용하여 3D 디자인 구성하기</summary>
+  <div markdown="1">
+
+  - [1. octopus](https://www.tinkercad.com/things/kxNUOq86cKG)
+
+  </div>
+  </details>
 
 
 ### 🐰 아두이노 코딩 교육
