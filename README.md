@@ -5,9 +5,11 @@
 
 ### 🐰 3D 프린팅 교육
 - 사용 툴
-  - [Ender-5 Pro 3D Printer](https://www.creality.com/pages/download)
+  - Ender-5 Pro 3D Printer
+  - [Creality Slicer 1.2.3](https://www.creality.com/pages/download-ender-5-pro?spm=..page_1934481.products_display_1.1)
   - [padlet](https://padlet.com/misumi/goqhd31)
   - [tinkercad](https://www.tinkercad.com/)
+  
 
 - 관련 사이트
   - [싱기버스](https://www.thingiverse.com/)
