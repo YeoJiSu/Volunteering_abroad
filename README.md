@@ -17,7 +17,7 @@
 #### 📌 3D 모델링
 - 사용 툴
    1.  [tinkercad](https://www.tinkercad.com/)
-   2.  Fusion 360
+   2.  [Fusion 360](https://www.autodesk.co.kr/products/fusion-360/overview?us_oa=dotcom-us&us_si=cf376ffa-4286-4af7-82f4-958eab58df35&us_st=Fusion%20360&us_pt=NINVFUS&term=1-YEAR&tab=subscription&plc=F360)
    
 - 활동 내용
   <details>
