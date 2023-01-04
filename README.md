@@ -4,16 +4,21 @@
 > ✔️ 파견 기간: 2023.01.29 ~ 2023.02.15
 
 ### 🐰 3D 프린팅 교육
+
+#### 📌 3D 출력
 - 사용 툴
   - Ender-5 Pro 3D Printer
   - [Creality Slicer 1.2.3](https://www.creality.com/pages/download-ender-5-pro?spm=..page_1934481.products_display_1.1)
   - [padlet](https://padlet.com/misumi/goqhd31)
-  - [tinkercad](https://www.tinkercad.com/)
   
-
-- 관련 사이트
+- 출력 예제 사이트
   - [싱기버스](https://www.thingiverse.com/)
 
+#### 📌 3D 모델링
+- 사용 툴
+   1.  [tinkercad](https://www.tinkercad.com/)
+   2.  Fusion 360
+   
 - 활동 내용
   <details>
   <summary>tinkercad를 활용하여 3D 디자인 구성하기</summary>
