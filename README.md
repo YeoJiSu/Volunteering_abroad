@@ -10,6 +10,7 @@
   - Ender-5 Pro 3D Printer
   - [Creality Slicer 1.2.3](https://www.creality.com/pages/download-ender-5-pro?spm=..page_1934481.products_display_1.1)
   - [padlet](https://padlet.com/misumi/goqhd31)
+  - [meshmixer](https://meshmixer.com/download.html)
   
 - 출력 예제 사이트
   - [싱기버스](https://www.thingiverse.com/)
