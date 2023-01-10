@@ -31,6 +31,8 @@
   </div>
   </details>
 
+####📌 3D 펜
+
 
 ### 🐰 아두이노 코딩 교육
 - 사용 툴
@@ -53,6 +55,6 @@
   </details>
 
 ### 🐰 교육 계획서
-[라차부리에서의 12일간 교육 계획서](https://docs.google.com/document/d/18A2gmu7WhdmHib4oT-bUVFPq64Y1tC4AY8vJW4PXDO8/edit?usp=sharing)
+* [라차부리에서의 12일간 교육 계획서](https://docs.google.com/document/d/18A2gmu7WhdmHib4oT-bUVFPq64Y1tC4AY8vJW4PXDO8/edit?usp=sharing)
 
 
