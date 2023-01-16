@@ -19,7 +19,7 @@
 #define SPEAKER_PIN 8
 #define MAX_GAME_LENGTH 100
 
-LiquidCrystal lcd(A0,A1,A2,A3,A4,A5);
+LiquidCrystal lcd(6,A1,A2,A3,A4,A5);
 
 const byte ledPins[] = {9, 10, 11, 12};
 const byte buttonPins[] = {2, 3, 4, 5};
@@ -41,7 +41,7 @@ void setup() {
     pinMode(buttonPins[i], INPUT_PULLUP);
   }
   pinMode(SPEAKER_PIN, OUTPUT);
-  randomSeed(analogRead(A0)); //TODO 이부분 수정 필요. pin A0 is floating (disconnected): 인 상태여야하나 현재 A0 핀 연결되어 있음.
+  randomSeed(analogRead(A0));
 }
 
 /**
