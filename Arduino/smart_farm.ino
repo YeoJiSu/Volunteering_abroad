@@ -1,8 +1,6 @@
 /**
    Smart farm for Arduino
-
    Copyright (C) 2023, Yeo Ji Su
-
    Released under the MIT License.
 */
 
@@ -10,7 +8,7 @@
 #define photoresistor A0 // pin number of photoresistor
 #define waterPump 13 // pin number of water pump
 #define led 12 // pin number of LED
-#define stdBrightness 500 // standard brightness
+#define stdBrightness 33 // standard brightness
 #define stdMoisture 700 // standard moisture content
 
 
@@ -29,11 +27,11 @@ void loop()
     Serial.println(analogRead(photoresistor)); // Measuring the current amount of light with the photoresistor 0(bright) ~ 1023(dark)
     delay(100); // Measuring at 0.1 second intervals
 
-    if (analogRead(photoresistor) < stdBrightness) { // If bright
+    if (analogRead(photoresistor) >= stdBrightness) { // If bright
         // Turn off LED
         digitalWrite(led, LOW);
     }
-    if (analogRead(photoresistor) >= stdBrightness){  // If dark
+    if (analogRead(photoresistor) < stdBrightness){  // If dark
         // Turn on LED
         digitalWrite(led, HIGH);
     }
