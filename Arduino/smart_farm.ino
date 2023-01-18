@@ -6,12 +6,12 @@
    Released under the MIT License.
 */
 
-#define soilMoisture A1 // 토양수분센서 핀
-#define photoresistor A0 // 조도센서 핀
-#define waterPump 13 // 워터펌프 핀
-#define led 12 // led 핀
-#define stdBrightness 500 // 기준 명도
-#define stdMoisture 700 // 기준 수분량
+#define soilMoisture A1 // pin number of soil moisture sensor
+#define photoresistor A0 // pin number of photoresistor
+#define waterPump 13 // pin number of water pump
+#define led 12 // pin number of LED
+#define stdBrightness 500 // standard brightness
+#define stdMoisture 700 // standard moisture content
 
 
 void setup() 
@@ -24,29 +24,29 @@ void setup()
 void loop() 
 {
     Serial.print("A value of soil moisture:");
-    Serial.println(analogRead(soilMoisture)); // 토양습도센서로 수분 측정하기 0(습함) ~ 1023(건조)
+    Serial.println(analogRead(soilMoisture)); // Measuring Moisture with Soil Moisture Sensor 0 (wet) to 1023 (dry)
     Serial.print("A value of light:");
-    Serial.println(analogRead(photoresistor)); // 조도센서로 현재 빛의 양 측정하기 0() ~ 1023()
-    delay(100); // 0.1초 간격으로 수분 측정
+    Serial.println(analogRead(photoresistor)); // Measuring the current amount of light with the photoresistor 0(bright) ~ 1023(dark)
+    delay(100); // Measuring at 0.1 second intervals
 
-    if (analogRead(photoresistor)>= stdBrightness) { // 밝다면
-        // led 끄기
+    if (analogRead(photoresistor) < stdBrightness) { // If bright
+        // Turn off LED
         digitalWrite(led, LOW);
     }
-    if (analogRead(photoresistor)< stdBrightness){  // 어둡다면
-        // led 켜기
+    if (analogRead(photoresistor) >= stdBrightness){  // If dark
+        // Turn on LED
         digitalWrite(led, HIGH);
     }
-    if (analogRead(soilMoisture) > stdMoisture){ // 토양의 수분이 부족하다면
-        // 건조하다고 출력.
+    if (analogRead(soilMoisture) > stdMoisture){ // If the soil moisture is insufficient
+        // Print dry
         Serial.println("Very Dry!");
-        // 수분 공급하기. 
-        digitalWrite(waterPump, HIGH); // analogWrite 사용해도 됨.
+        // Hydrate
+        digitalWrite(waterPump, HIGH); 
         delay(1000);  
     }
-    if (analogRead(soilMoisture) <= stdMoisture){ // 토양의 수분이 충분하다면,
+    if (analogRead(soilMoisture) <= stdMoisture){ // If the soil has enough moisture
         Serial.println("Very Wet!");
-        // 수분 공급 X.
+        // Do not hydrate
         digitalWrite(waterPump, LOW); 
         delay(1000);
     }
